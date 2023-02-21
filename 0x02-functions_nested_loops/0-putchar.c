@@ -2,11 +2,10 @@
 
 /**
  * _putchar - writes the character c to stdout
- * @c: The character to print
- * Return: 0n sucess 1
- * 0n error, -1 is returned, and errno is set appropriately
+ * Return: Always 0
  */
-int _putchar()
+
+int main(void)
 {
 	cout << "_putchar" << endl;
 
