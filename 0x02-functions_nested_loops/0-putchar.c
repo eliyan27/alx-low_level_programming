@@ -6,7 +6,9 @@
  * Return: 0n sucess 1
  * 0n error, -1 is returned, and errno is set appropriately
  */
-int _putchar(char c)
+int _putchar()
 {
-	return (write(1, &c, 1));
+	cout << "_putchar" << endl;
+
+	return (0);
 }
