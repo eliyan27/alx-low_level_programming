@@ -1,27 +1,17 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
+
 /**
- * main - Prints the alphabet in lowercase and the in uppercase
- *
- * Return: Always 0 (success)
+ * main - prints alpha in lowercase
+ * Return: Always 0
  */
 int main(void)
 {
-	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
-	int i;
+	char lc;
 
-	for (i = 0; i < 26; i++)
+	for (lc = 'a'; lc <= 'z'; lc++);
 	{
-		purchar(alp[i]);
+		putchar(lc);
 	}
-	while ALP[26] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	int i;
-
-	for (i = 0; i < 26; i++)
-	{
-		purchar(ALP[i]);
-	}
-	purchar('\n');
+	putchar('\n');
 	return (0);
 }
