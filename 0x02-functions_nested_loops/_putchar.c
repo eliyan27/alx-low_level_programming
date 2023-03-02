@@ -6,6 +6,7 @@
  * Return: On success 1.
  * on error, -1 is returnes, and errno is set appropriately
  */
+
 int _putchar(char c)
 {
 	return(write(1, &c,1));
